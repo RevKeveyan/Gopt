@@ -1,0 +1,33 @@
+.work{
+    background-color: #f3f3f3;
+    min-height: 600px;
+    padding: 55px 0;
+    &__title{
+        margin-bottom: 31px;
+    }
+    &__ithem{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        column-gap:61px;
+        justify-content: space-between;
+        &__text{
+            font-weight: 300;
+            line-height: 25px;
+            span{
+                color: #ec644b;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+    }
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-auto-rows: auto;
+        align-items: center;
+        column-gap: 17px;
+        margin-bottom: 36px;
+
+    }
+
+}

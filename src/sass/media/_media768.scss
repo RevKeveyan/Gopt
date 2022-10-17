@@ -1,0 +1,68 @@
+@media (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .subtitle{
+        font-size: 18px;
+    }
+    .call{
+        display: block;
+        text-align: right;
+        padding-right: 50px;
+    }
+    .promo{
+        &__title{
+            font-size: 35px;
+        }
+     &__ithem{
+        grid-template: repeat(2, auto)/ repeat(2,250px);
+        
+     }
+    }
+    
+    .work{
+        &__title{
+            font-size: 25px;
+        }
+        &__ithem{
+            grid-template-columns: auto;
+        }
+        &__wrapper{
+            display: block;
+            text-align: center;
+            padding: 0 20px;
+        }
+    }
+    .price{
+        &__ithem{
+            grid-template-columns: repeat(auto-fit,265px);
+        }
+        &__form{
+            &__inputs{
+                padding: 75px 0 20px 0;
+            }
+        }
+    }
+    .schema{
+        &__ithems{
+         grid-template-columns: repeat(auto-fit,255px);
+         row-gap: 20px;
+         }
+         &__ithems-sec{
+            grid-template-columns: repeat(auto-fit,255px);
+            row-gap: 20px;
+            }
+     }
+     .footer{
+        &__subtitle{
+            width: 200px;
+            font-size: 12px;
+        }
+        &__img{
+            right:0;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@import 'base/variables';
+@import 'base/mixins';
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.divider{
+    width: 148px;
+    height: 1px;
+    border: 1px solid $mc;
+    background-color: $mc;
+    margin: 20px auto 17px auto;
+}
+.map{
+    width: 100%;
+        height: 450px;
+}
+
+@import 'block/title';
+@import 'block/buttons';
+@import 'block/promo';
+@import 'block/call';
+@import 'block/work';
+@import 'block/delivery';
+@import 'block/price';
+@import 'block/schema';
+@import 'block/review';
+@import 'block/form';
+@import 'block/footer';
+
+
+
+@import 'media/media1200';
+@import 'media/media992';
+@import 'media/media768';
+@import 'media/media576';
+

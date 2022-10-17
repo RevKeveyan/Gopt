@@ -1,0 +1,147 @@
+
+@media (max-width: 576px){
+    .container
+    {
+        max-width: 100%;
+       
+    }
+   
+  
+   
+    .title{
+        font-size: 17px;
+    }
+    .subtitle{
+        font-size: 12px;
+    }
+    
+    .header{
+        padding-top: 10px;
+        &__logo{
+            img{
+                width: 70%;
+            }
+        }
+    }
+    .promo{
+        &__ithem{
+            grid-template-columns:200px ;
+            justify-content: center;
+        }
+        
+       
+        &__title{
+            font-size: 25px;
+            }
+        &__text{
+            font-size: 15px;
+            }
+        &__ithem{
+            grid-template-columns: 200px;
+            justify-content: center;
+                
+            }
+        &__wrapper{
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+    }   
+    .menu{
+        width: 50%;
+    }
+    .call{
+        margin: 0 auto;
+        text-align: center;
+        padding-right: 0;
+        
+    } 
+    .hamburger{
+        left: 85%;
+        top:25px;
+    }
+
+    .work{
+        &__title{
+            font-size: 25px;
+        }
+    }
+
+    .delivery{
+        &__ithems{
+            grid-template-columns:200px;
+        }
+        &__footer{
+            &__descr{
+                font-size: 15px;
+                padding: 0 10px;
+            }
+        }
+    }
+    .price{
+       
+        &__form{
+           input{
+                width: 150px;
+            }
+        }
+        &__footer{
+            &__descr{
+                padding: 0 10px;
+            }
+        }
+    }
+    .review
+    { .slick-active{
+        opacity: 1;
+    }
+}
+.form{
+    
+    padding: 62px 10px 79px 10px;
+    &__main{
+        textarea{
+            width: 200px;
+        }
+        &__inputs{
+            input{
+                width: 200px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.footer{
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    &__subtitle{
+        margin: 20px 0;
+    }
+    .call{
+        &__subheader{
+            text-align: center;
+            padding-left: 15px;
+
+        }
+        &__button{
+            margin: 0;
+        }
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        li{
+            margin-bottom: 20px;
+        }
+    }
+    &__img{
+        top: 60%;
+    }
+}
+}
+
